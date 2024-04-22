@@ -2,7 +2,7 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.0/firebas
 import { getAuth } from "https://www.gstatic.com/firebasejs/10.7.0/firebase-auth.js";
 import { getDatabase, get, set, update, ref, child } from "https://www.gstatic.com/firebasejs/10.7.0/firebase-database.js"
 const firebaseConfig = {
-    apiKey: API_KEYQ,
+    apiKey: API_KEY,
     authDomain: "myquiz-01.firebaseapp.com",
     databaseURL: "https://myquiz-01-default-rtdb.firebaseio.com",
     projectId: "myquiz-01",
